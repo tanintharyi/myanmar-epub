@@ -132,18 +132,17 @@ async function main() {
         console.log(`file for ${todayDateRawPath} not exist yet`);
     }
 
-    console.log("data.length", data.length)
     if (!data.length) {
         data = await geSpreadsheetData();
         writeJsonToFile(data, todayDateRawPath);
     }
+    console.log("data.length", data.length)
 
     data = convertArr2ObjArr(data)
 
     for (let i = 0; i < data.length; i++) {
         let book = data[i];
         await downloadEpub(book["epub-url"], `author/${book["author"]}/${book["name"]}.epub`)
-        break;
     }
 }
 
