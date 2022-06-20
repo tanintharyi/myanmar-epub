@@ -7,10 +7,11 @@ const GITHUB_CONTEXT_PAYLOAD = process.env.GITHUB_CONTEXT_PAYLOAD ? JSON.parse(p
 const BUILD_FOLDER = 'build';
 const VERSION_NO = 'v1';
 
-async function geSpreadsheetData() {
+async function geSpreadsheetData(isAuthor = false) {
     let data = [];
     try {
-        const response = await axios.get(`https://sheets.googleapis.com/v4/spreadsheets/1bPsbxgOeHLZIVkJS5Zj59AKNSnZbOI22P8ENP7hhewk/values/Sheet1?key=${SPREADSHEET_SECRETKEY}`);
+        let sheetName = isAuthor ? 'Author' : 'Sheet1';
+        const response = await axios.get(`https://sheets.googleapis.com/v4/spreadsheets/1bPsbxgOeHLZIVkJS5Zj59AKNSnZbOI22P8ENP7hhewk/values/${sheetName}?key=${SPREADSHEET_SECRETKEY}`);
         data = response.data;
         if (!data.values) return [];
         data = data.values;
@@ -87,9 +88,10 @@ function convertArr2ObjArr(data) {
     return objArr;
 }
 
-function downloadEpub(fileUrl, fileName) {
+function downloadFile(fileUrl, fileName) {
     return new Promise((resolve, reject) => {
-        console.log("donwloadEpub", fileUrl)
+        console.log("downloadFile", fileUrl)
+        if (!fileUrl) resolve("done!");
         fileName = `${BUILD_FOLDER}/${VERSION_NO}/${fileName}`;
         let fileNameArr = fileName.split("/");
         for (let i = 1; i < fileNameArr.length; i++) {
@@ -113,23 +115,61 @@ function downloadEpub(fileUrl, fileName) {
 
 }
 
+function createSummary(data, dataAuthor) {
+    let summaryObj = {};
+    summaryObj["totalBook"] = data.length;
+    summaryObj["totalAuthor"] = dataAuthor.length;
+
+    let bookArr = [];
+    data.map(book => bookArr.push({
+        "name": book["name"],
+        "author": book["author"],
+        "isCoverImg": book["cover-url"] ? true : false,
+        "category": book["category"],
+        "description": book["description"]
+    }));
+    summaryObj["book"] = bookArr;
+
+    let authorArr = [];
+    dataAuthor.map(author => authorArr.push({
+        "name": author["author"],
+        "isProfileImg": author["img"] ? true : false,
+        "description": author["description"]
+    }));
+    summaryObj["author"] = authorArr;
+
+    writeJsonToFile(summaryObj, "summary");
+}
+
 async function main() {
     console.log(`GITHUB_CONTEXT_PAYLOAD`, GITHUB_CONTEXT_PAYLOAD);
-    const serverTodayDate = (GITHUB_CONTEXT_PAYLOAD && GITHUB_CONTEXT_PAYLOAD.todayDate) ? GITHUB_CONTEXT_PAYLOAD.todayDate : '';
-    let todayDateString = getFormattedDate(new Date(), true);
-    if (serverTodayDate) {
-        todayDateString = serverTodayDate;
-    }
+    const todayDateString = (GITHUB_CONTEXT_PAYLOAD && GITHUB_CONTEXT_PAYLOAD.todayDate) ? GITHUB_CONTEXT_PAYLOAD.todayDate : getFormattedDate(new Date(), true);
+    const startRowData = (GITHUB_CONTEXT_PAYLOAD && GITHUB_CONTEXT_PAYLOAD.startRowData) ? GITHUB_CONTEXT_PAYLOAD.startRowData : 1;
+    const startRowDataAuthor = (GITHUB_CONTEXT_PAYLOAD && GITHUB_CONTEXT_PAYLOAD.startRowDataAuthor) ? GITHUB_CONTEXT_PAYLOAD.startRowDataAuthor : 1;
+
     console.log(`todayDateString`, todayDateString);
+    console.log(`startRowData`, startRowData);
+    console.log(`startRowDataAuthor`, startRowDataAuthor);
+
     let todayDateRawPath = `backup/${todayDateString}/raw`;
+    let todayDateRawAuthorPath = `backup/${todayDateString}/raw-author`;
 
     let data = [];
+    let dataAuthor = [];
     try {
         data = readJsonFromFile(`${BUILD_FOLDER}/${VERSION_NO}/${todayDateRawPath}.json`);
         data = data.items;
-        console.log(`file reading finished`);
+        console.log(`file data reading finished`);
     } catch (e) {
         console.log(`file for ${todayDateRawPath} not exist yet`);
+    }
+
+    try {
+        dataAuthor = readJsonFromFile(`${BUILD_FOLDER}/${VERSION_NO}/${todayDateRawAuthorPath}.json`);
+        dataAuthor = dataAuthor.items;
+        console.log(`file dataAuthor reading finished`);
+    } catch (e) {
+        console.log(`file for ${todayDateRawAuthorPath} not exist yet`);
     }
 
     if (!data.length) {
@@ -138,12 +178,39 @@ async function main() {
     }
     console.log("data.length", data.length)
 
-    data = convertArr2ObjArr(data)
-
-    for (let i = 0; i < data.length; i++) {
-        let book = data[i];
-        await downloadEpub(book["epub-url"], `author/${book["author"]}/${book["name"]}.epub`)
+    if (!dataAuthor.length) {
+        dataAuthor = await geSpreadsheetData(isAuthor = true);
+        writeJsonToFile(dataAuthor, todayDateRawAuthorPath);
     }
+    console.log("dataAuthor.length", dataAuthor.length)
+
+    data = convertArr2ObjArr(data)
+    dataAuthor = convertArr2ObjArr(dataAuthor)
+
+    let downloadFileEpubPromises = [];
+    let downloadFileCoverPromises = [];
+    for (let i = startRowData - 1; i < data.length; i++) {
+        let book = data[i];
+        // downloadFileEpubPromises.push(downloadFile(book["epub-url"], `author/${book["author"]}/${book["name"]}.epub`));
+        // if (i % 3 == 0 || (i == data.length - 1)) {
+        //     await Promise.all(downloadFileEpubPromises);
+        // }
+        downloadFileCoverPromises.push(downloadFile(book["cover-url"], `author/${book["author"]}/${book["name"]}.jpg`));
+        if (i % 9 == 0 || (i == data.length - 1)) {
+            await Promise.all(downloadFileCoverPromises);
+        }
+    }
+
+    let downloadFileAuthorCoverPromises = [];
+    for (let i = startRowDataAuthor - 1; i < dataAuthor.length; i++) {
+        let author = dataAuthor[i];
+        downloadFileAuthorCoverPromises.push(downloadFile(author["img"], `author/${author["author"]}/_profile.jpg`));
+        if (i % 18 == 0 || (i == dataAuthor.length - 1)) {
+            await Promise.all(downloadFileAuthorCoverPromises);
+        }
+    }
+
+    createSummary(data, dataAuthor);
 }
 
 main();
