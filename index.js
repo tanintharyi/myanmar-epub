@@ -195,16 +195,16 @@ async function main() {
         // if (i % 3 == 0 || (i == data.length - 1)) {
         //     await Promise.all(downloadFileEpubPromises);
         // }
-        downloadFileCoverPromises.push(downloadFile(book["cover-url"], `author/${book["author"]}/${book["name"]}.jpg`));
-        if (i % 9 == 0 || (i == data.length - 1)) {
-            await Promise.all(downloadFileCoverPromises);
-        }
+        // downloadFileCoverPromises.push(downloadFile(book["cover-url"], `author/${book["author"]}/${book["name"]}.jpg`));
+        // if (i % 9 == 0 || (i == data.length - 1)) {
+        //     await Promise.all(downloadFileCoverPromises);
+        // }
     }
 
     let downloadFileAuthorCoverPromises = [];
     for (let i = startRowDataAuthor - 1; i < dataAuthor.length; i++) {
         let author = dataAuthor[i];
-        downloadFileAuthorCoverPromises.push(downloadFile(author["img"], `author/${author["author"]}/_profile.jpg`));
+        downloadFileAuthorCoverPromises.push(downloadFile(author["img"], `author/${author["author"]}/profile.jpg`));
         if (i % 18 == 0 || (i == dataAuthor.length - 1)) {
             await Promise.all(downloadFileAuthorCoverPromises);
         }
