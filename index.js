@@ -126,7 +126,8 @@ function createSummary(data, dataAuthor) {
         "author": book["author"],
         "isCoverImg": book["cover-url"] ? true : false,
         "category": book["category"],
-        "description": book["description"]
+        "description": book["description"],
+        "is_new": book["is_new"],
     }));
     summaryObj["book"] = bookArr;
 
@@ -189,20 +190,22 @@ async function main() {
 
     let downloadFileEpubPromises = [];
     let downloadFileCoverPromises = [];
-    for (let i = startRowData - 1; i < data.length; i++) {
+    for (let i = startRowData - 1; i < 10; i++) {
+    // for (let i = startRowData - 1; i < data.length; i++) {
         let book = data[i];
-        // downloadFileEpubPromises.push(downloadFile(book["epub-url"], `author/${book["author"]}/${book["name"]}.epub`));
-        // if (i % 3 == 0 || (i == data.length - 1)) {
-        //     await Promise.all(downloadFileEpubPromises);
-        // }
-        // downloadFileCoverPromises.push(downloadFile(book["cover-url"], `author/${book["author"]}/${book["name"]}.jpg`));
-        // if (i % 9 == 0 || (i == data.length - 1)) {
-        //     await Promise.all(downloadFileCoverPromises);
-        // }
+        downloadFileEpubPromises.push(downloadFile(book["epub-url"], `author/${book["author"]}/${book["name"]}.epub`));
+        if (i % 3 == 0 || (i == data.length - 1)) {
+            await Promise.all(downloadFileEpubPromises);
+        }
+        downloadFileCoverPromises.push(downloadFile(book["cover-url"], `author/${book["author"]}/${book["name"]}.jpg`));
+        if (i % 9 == 0 || (i == data.length - 1)) {
+            await Promise.all(downloadFileCoverPromises);
+        }
     }
 
     let downloadFileAuthorCoverPromises = [];
-    for (let i = startRowDataAuthor - 1; i < dataAuthor.length; i++) {
+    for (let i = 82; i < dataAuthor.length; i++) {
+    // for (let i = startRowDataAuthor - 1; i < dataAuthor.length; i++) {
         let author = dataAuthor[i];
         downloadFileAuthorCoverPromises.push(downloadFile(author["img"], `author/${author["author"]}/profile.jpg`));
         if (i % 18 == 0 || (i == dataAuthor.length - 1)) {
