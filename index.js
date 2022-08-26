@@ -190,7 +190,7 @@ async function main() {
 
     let downloadFileEpubPromises = [];
     let downloadFileCoverPromises = [];
-    for (let i = startRowData - 1; i < 10; i++) {
+    for (let i = 16; i < 17; i++) {
     // for (let i = startRowData - 1; i < data.length; i++) {
         let book = data[i];
         downloadFileEpubPromises.push(downloadFile(book["epub-url"], `author/${book["author"]}/${book["name"]}.epub`));
@@ -204,14 +204,14 @@ async function main() {
     }
 
     let downloadFileAuthorCoverPromises = [];
-    for (let i = 82; i < dataAuthor.length; i++) {
-    // for (let i = startRowDataAuthor - 1; i < dataAuthor.length; i++) {
-        let author = dataAuthor[i];
-        downloadFileAuthorCoverPromises.push(downloadFile(author["img"], `author/${author["author"]}/profile.jpg`));
-        if (i % 18 == 0 || (i == dataAuthor.length - 1)) {
-            await Promise.all(downloadFileAuthorCoverPromises);
-        }
-    }
+    // for (let i = 82; i < dataAuthor.length; i++) {
+    // // for (let i = startRowDataAuthor - 1; i < dataAuthor.length; i++) {
+    //     let author = dataAuthor[i];
+    //     downloadFileAuthorCoverPromises.push(downloadFile(author["img"], `author/${author["author"]}/profile.jpg`));
+    //     if (i % 18 == 0 || (i == dataAuthor.length - 1)) {
+    //         await Promise.all(downloadFileAuthorCoverPromises);
+    //     }
+    // }
 
     createSummary(data, dataAuthor);
 }
