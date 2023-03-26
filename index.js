@@ -146,8 +146,8 @@ async function main() {
     console.log(`GITHUB_CONTEXT_PAYLOAD`, GITHUB_CONTEXT_PAYLOAD);
     const todayDateString = (GITHUB_CONTEXT_PAYLOAD && GITHUB_CONTEXT_PAYLOAD.todayDate) ? GITHUB_CONTEXT_PAYLOAD.todayDate : getFormattedDate(new Date(), true);
     const startRowData = (GITHUB_CONTEXT_PAYLOAD && GITHUB_CONTEXT_PAYLOAD.startRowData) ? (GITHUB_CONTEXT_PAYLOAD.startRowData - 2) : 1;
-    const endRowData = (GITHUB_CONTEXT_PAYLOAD && GITHUB_CONTEXT_PAYLOAD.endRowData) ? (GITHUB_CONTEXT_PAYLOAD.endRowData - 2) : 1;
-    const startRowDataAuthor = (GITHUB_CONTEXT_PAYLOAD && GITHUB_CONTEXT_PAYLOAD.startRowDataAuthor) ? (GITHUB_CONTEXT_PAYLOAD.startRowDataAuthor - 2) : 0;
+    const endRowData = (GITHUB_CONTEXT_PAYLOAD && GITHUB_CONTEXT_PAYLOAD.endRowData) ? (GITHUB_CONTEXT_PAYLOAD.endRowData - 2) : 0;
+    const startRowDataAuthor = (GITHUB_CONTEXT_PAYLOAD && GITHUB_CONTEXT_PAYLOAD.startRowDataAuthor) ? (GITHUB_CONTEXT_PAYLOAD.startRowDataAuthor - 2) : 1;
     const endRowDataAuthor = (GITHUB_CONTEXT_PAYLOAD && GITHUB_CONTEXT_PAYLOAD.endRowDataAuthor) ? (GITHUB_CONTEXT_PAYLOAD.endRowDataAuthor - 2) : 0;
 
     console.log(`todayDateString`, todayDateString);
