@@ -127,6 +127,8 @@ function createSummary(data, dataAuthor) {
         "isCoverImg": book["cover-url"] ? true : false,
         "category": book["category"],
         "description": book["description"],
+        "size": book["size"],
+        "size_in_bytes": book["size_in_bytes"],
         "is_new": book["is_new"],
     }));
     summaryObj["book"] = bookArr;
