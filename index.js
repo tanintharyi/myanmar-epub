@@ -191,12 +191,15 @@ async function main() {
     dataAuthor = convertArr2ObjArr(dataAuthor)
 
     let downloadFileEpubPromises = [];
+    let downloadFileKfxPromises = [];
     let downloadFileCoverPromises = [];
     for (let i = startRowData; i <= endRowData; i++) {
         let book = data[i];
         downloadFileEpubPromises.push(downloadFile(book["epub-url"], `author/${book["author"]}/${book["name"]}.epub`));
+        downloadFileKfxPromises.push(downloadFile(book["epub-url"], `author/${book["author"]}/${book["name"]}.kfx`));
         if (i % 3 == 0 || (i == endRowData)) {
             await Promise.all(downloadFileEpubPromises);
+            await Promise.all(downloadFileKfxPromises);
         }
         downloadFileCoverPromises.push(downloadFile(book["cover-url"], `author/${book["author"]}/${book["name"]}.jpg`));
         if (i % 9 == 0 || (i == endRowData)) {
