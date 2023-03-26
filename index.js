@@ -146,7 +146,9 @@ async function main() {
     console.log(`GITHUB_CONTEXT_PAYLOAD`, GITHUB_CONTEXT_PAYLOAD);
     const todayDateString = (GITHUB_CONTEXT_PAYLOAD && GITHUB_CONTEXT_PAYLOAD.todayDate) ? GITHUB_CONTEXT_PAYLOAD.todayDate : getFormattedDate(new Date(), true);
     const startRowData = (GITHUB_CONTEXT_PAYLOAD && GITHUB_CONTEXT_PAYLOAD.startRowData) ? GITHUB_CONTEXT_PAYLOAD.startRowData : 1;
+    const endRowData = (GITHUB_CONTEXT_PAYLOAD && GITHUB_CONTEXT_PAYLOAD.endRowData) ? GITHUB_CONTEXT_PAYLOAD.endRowData : 1;
     const startRowDataAuthor = (GITHUB_CONTEXT_PAYLOAD && GITHUB_CONTEXT_PAYLOAD.startRowDataAuthor) ? GITHUB_CONTEXT_PAYLOAD.startRowDataAuthor : 1;
+    const endRowDataAuthor = (GITHUB_CONTEXT_PAYLOAD && GITHUB_CONTEXT_PAYLOAD.endRowDataAuthor) ? GITHUB_CONTEXT_PAYLOAD.endRowDataAuthor : 1;
 
     console.log(`todayDateString`, todayDateString);
     console.log(`startRowData`, startRowData);
@@ -191,27 +193,26 @@ async function main() {
     let downloadFileEpubPromises = [];
     let downloadFileCoverPromises = [];
     for (let i = 16; i < 17; i++) {
-    // for (let i = startRowData - 1; i < data.length; i++) {
+    for (let i = startRowData - 1; i <= endRowData; i++) {
         let book = data[i];
         downloadFileEpubPromises.push(downloadFile(book["epub-url"], `author/${book["author"]}/${book["name"]}.epub`));
-        if (i % 3 == 0 || (i == data.length - 1)) {
+        if (i % 3 == 0 || (i == endRowData)) {
             await Promise.all(downloadFileEpubPromises);
         }
         downloadFileCoverPromises.push(downloadFile(book["cover-url"], `author/${book["author"]}/${book["name"]}.jpg`));
-        if (i % 9 == 0 || (i == data.length - 1)) {
+        if (i % 9 == 0 || (i == endRowData)) {
             await Promise.all(downloadFileCoverPromises);
         }
     }
 
     let downloadFileAuthorCoverPromises = [];
-    // for (let i = 82; i < dataAuthor.length; i++) {
-    // // for (let i = startRowDataAuthor - 1; i < dataAuthor.length; i++) {
-    //     let author = dataAuthor[i];
-    //     downloadFileAuthorCoverPromises.push(downloadFile(author["img"], `author/${author["author"]}/profile.jpg`));
-    //     if (i % 18 == 0 || (i == dataAuthor.length - 1)) {
-    //         await Promise.all(downloadFileAuthorCoverPromises);
-    //     }
-    // }
+    for (let i = startRowDataAuthor - 1; i <= endRowDataAuthor; i++) {
+        let author = dataAuthor[i];
+        downloadFileAuthorCoverPromises.push(downloadFile(author["img"], `author/${author["author"]}/profile.jpg`));
+        if (i % 18 == 0 || (i == endRowDataAuthor)) {
+            await Promise.all(downloadFileAuthorCoverPromises);
+        }
+    }
 
     createSummary(data, dataAuthor);
 }
