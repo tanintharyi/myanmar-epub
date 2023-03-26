@@ -150,61 +150,71 @@
             "name": "ကော်ဖီနှင့်ကိတ်တို့၏နှစ်တစ်နှစ်",
             "author": "ကီကို",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ကြောက်စိတ်နှင့်သင့်ဘဝမျက်နှာဖုံးဆောင်းပါးများ",
             "author": "မောင်သစ်ဆင်း",
             "isCoverImg": true,
-            "category": "ဝတ္ထုတိုများ"
+            "category": "ဝတ္ထုတိုများ",
+            "description": ""
         },
         {
             "name": "မိမိအရေပြားမှလမ်းလျှောက်ထွက်ခြင်း",
             "author": "သစ္စာနီ",
             "isCoverImg": true,
-            "category": "ကဗျာ"
+            "category": "ကဗျာ",
+            "description": ""
         },
         {
             "name": "လက်ဗွေနီနီ",
             "author": "ဖြိုးကျော်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "မိမော်မေမ-မောင့်ချစ်သဲဦး",
             "author": "ကာတွန်းဝင်းမောင်",
             "isCoverImg": true,
-            "category": "ရုပ်ပြကာတွန်း"
+            "category": "ရုပ်ပြကာတွန်း",
+            "description": ""
         },
         {
             "name": "သမထနှင့်ဝိပဿနာ",
             "author": "ဒေါက်တာ အရှင်နန္ဒမာလာဘိဝံသ",
             "isCoverImg": true,
-            "category": "ဘာသာရေး"
+            "category": "ဘာသာရေး",
+            "description": ""
         },
         {
             "name": "မေတ္တသုတ်အနှစ်ချုပ်",
             "author": "ဒေါက်တာ အရှင်နန္ဒမာလာဘိဝံသ",
             "isCoverImg": true,
-            "category": "ဘာသာရေး"
+            "category": "ဘာသာရေး",
+            "description": ""
         },
         {
             "name": "မြတ်ဗုဒ္ဓဒေသနာနှင့်ယနေ့ကမ္ဘာ",
             "author": "ဒေါက်တာ အရှင်နန္ဒမာလာဘိဝံသ",
             "isCoverImg": true,
-            "category": "ဘာသာရေး"
+            "category": "ဘာသာရေး",
+            "description": ""
         },
         {
             "name": "ဘဝခရီးဝယ်ရွေးချယ်ရမဲ့လမ်း",
             "author": "ဒေါက်တာ အရှင်နန္ဒမာလာဘိဝံသ",
             "isCoverImg": true,
-            "category": "ဘာသာရေး"
+            "category": "ဘာသာရေး",
+            "description": ""
         },
         {
             "name": "စိတ်၏အညစ်အကြေးများကိုဖယ်ရှားခြင်း",
             "author": "ဒေါက်တာ အရှင်နန္ဒမာလာဘိဝံသ",
             "isCoverImg": true,
-            "category": "ဘာသာရေး"
+            "category": "ဘာသာရေး",
+            "description": ""
         },
         {
             "name": "မိတ္တဗလဋီကာ",
@@ -245,7 +255,8 @@
             "name": "ပန်းခေတ်ကလမင်း",
             "author": "တာရာမင်းဝေ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ကာလာမသုတ်အနှစ်ချုပ်",
@@ -300,13 +311,15 @@
             "name": "ဆယ့်နှစ်ကြိုးဝတ္ထုတိုများ",
             "author": "နေဝင်းမြင့်",
             "isCoverImg": true,
-            "category": "ဝတ္ထုတိုများ"
+            "category": "ဝတ္ထုတိုများ",
+            "description": ""
         },
         {
             "name": "ဆားပုလင်းနှင်းမောင်နှင့်တပွဲစားဦးနှော",
             "author": "မင်းသိင်္ခ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "အရိပ်မဲ့ရုပ်ပုံလွှာ",
@@ -326,7 +339,8 @@
             "name": "တောကျီးကန်းဝတ္ထုတိုများ",
             "author": "နေဝင်းမြင့်",
             "isCoverImg": true,
-            "category": "ဝတ္ထုတိုများ"
+            "category": "ဝတ္ထုတိုများ",
+            "description": ""
         },
         {
             "name": "ခေတ်ပြိုင်တို့၏သတို့သမီး",
@@ -339,13 +353,15 @@
             "name": "တောသားကြီး",
             "author": "အကြည်တော်",
             "isCoverImg": true,
-            "category": "ဟာသ"
+            "category": "ဟာသ",
+            "description": ""
         },
         {
             "name": "ကျောင်းတွင်းဒီမိုကရေစီ",
             "author": "ဦးသန့်",
             "isCoverImg": true,
-            "category": "နိုင်ငံရေး"
+            "category": "နိုင်ငံရေး",
+            "description": ""
         },
         {
             "name": "လူနှင့်သူတို့၏ဟာသများ",
@@ -358,13 +374,15 @@
             "name": "ဗုဒ္ဓ၏လူမှု့ရေးတရားတော်များ",
             "author": "ဦးခင်မောင်ဝင်း",
             "isCoverImg": true,
-            "category": "ဘာသာရေး"
+            "category": "ဘာသာရေး",
+            "description": ""
         },
         {
             "name": "လွယ်အိတ်ထဲကအလွဲများ",
             "author": "နီကိုရဲ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "တာတေစနေသား",
@@ -377,7 +395,8 @@
             "name": "စူစီဝေါင်း",
             "author": "အထောက်တော်လှအောင်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "နှစ်လောက",
@@ -404,7 +423,8 @@
             "name": "မဒ္ဒီလိုလိုသမ္ဘူလိုလို",
             "author": "ခင်နှင်းယု",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "စွန်းလွန်းဥပနိသျည်း",
@@ -417,25 +437,29 @@
             "name": "ကိုယ်တိုင်သိရှိသွားမှု",
             "author": "ဇဏ်ခီ",
             "isCoverImg": true,
-            "category": "တိုးတက်ရေး"
+            "category": "တိုးတက်ရေး",
+            "description": ""
         },
         {
             "name": "နွားတထောင်",
             "author": "ခင်နှင်းယု",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "စောလမုန်သိုက်",
             "author": "ရွှေဥဒေါင်း",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "လွမ်းဆွတ်ဖွယ်ဆောင်း",
             "author": "ကလျာ (ဝိဇ္ဇာ/သိပ္ပံ)",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ပြုံး၍လည်းကန်တော့ခံတော်မူပါရယ်၍လည်းကန်တော့ခံတော်မူပါ",
@@ -448,43 +472,50 @@
             "name": "ငြိမ်းကိုရှက်ပါ",
             "author": "မိုးမိုး (အင်းလျား)",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ပြန်ခေါ်သက်သေ",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "မြင်းကပါအကျဥ်းသား",
             "author": "မင်းသိင်္ခ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ငယ်ဘဝ",
             "author": "လယ်တွင်းသားစောချစ်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "လမင်းကြီးသာစမ်းပါ",
             "author": "ခင်နှင်းယု",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ပဉ္စမမြောက်ဆောင်းရက်များ",
             "author": "ငြိမ်းကျော်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "တိမ်နဲ့ဖုံးပါလို့လမသာ",
             "author": "မစန္ဒာ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ပန်းကျောင်း",
@@ -504,19 +535,22 @@
             "name": "အဖြူ",
             "author": "ဂျာနယ်ကျော် မမလေး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ဆားပုလင်းနှင်းမောင်နှင့်ပျားစွဲသောမုတ်ဆိတ်",
             "author": "မင်းသိင်္ခ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "နေထွက်ဘုရင်မ",
             "author": "ဒဂုန်ရွှေမျှား",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "မြောက်ဖျားကအလွမ်းရာသီ",
@@ -529,13 +563,15 @@
             "name": "အက်ဂါကေစီနှင့်တမလွန်ဖြစ်ရပ်ဆန်းများ",
             "author": "အောင်ခင်စိုး",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ဟော်မုန်းပင်နှင့်ထူးထူးခြားခြားဝတ္ထုတိုများ",
             "author": "ရွှေဥဒေါင်း",
             "isCoverImg": true,
-            "category": "ဝတ္ထုတိုများ"
+            "category": "ဝတ္ထုတိုများ",
+            "description": ""
         },
         {
             "name": "အိပ်ဇိုးဒပ်",
@@ -555,7 +591,8 @@
             "name": "တပြည်သူမရွှေထား",
             "author": "တက္ကသိုလ်ဘုန်းနိုင်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ထောင်အတွင်းမှပရလောကသားများ",
@@ -568,7 +605,8 @@
             "name": "ဆားပုလင်းနှင်းမောင်နှင့်မိုးပေါ်မှာကြယ်တစ်လုံး",
             "author": "မင်းသိင်္ခ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "သူ့ကျွန်မခံပြီ",
@@ -581,43 +619,50 @@
             "name": "ညီမလေးရယ်စိုးရိမ်မိတယ်",
             "author": "တက္ကသိုလ်ဘုန်းနိုင်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "အနောက်တောင်အရပ်မှလာခဲ့သူ",
             "author": "ပုညခင်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "မေတ္တာမီးအိမ်",
             "author": "ကြည်အေး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "မျိုးရိုးထဲကဆိုးပေကြီးများ",
             "author": "သုမောင်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "သူငယ်ချင်းလို့ပဲဆက်၍ခေါ်မည်ခိုင်",
             "author": "တက္ကသိုလ်ဘုန်းနိုင်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "နှင်းငွေတတောင့်မိုးတမှောင့်",
             "author": "တက္ကသိုလ်ဘုန်းနိုင်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "မော့ဆက်",
             "author": "တင်နွယ်မောင်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "မဟူရာအကျဉ်းထောင်",
@@ -637,31 +682,36 @@
             "name": "နှစ်ဆယ့်ရှစ်နှစ်ရှိပြီဖြစ်တဲ့မိန်းမတစ်ယောက်",
             "author": "နုနုရည်(အင်းဝ)",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "အင်ဖာတိုက်ပွဲ",
             "author": "တက္ကသိုလ်နန္ဒမိတ်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "စိမ်းနေဦးမည့်ကျွန်တော့်မြေ",
             "author": "တက္ကသိုလ်ဘုန်းနိုင်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ပျားရည်အိုင်",
             "author": "ခင်နှင်းယု",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "AVA1740s",
             "author": "ခက်ဇော်",
             "isCoverImg": true,
-            "category": "သမိုင်းနောက်ခံ"
+            "category": "သမိုင်းနောက်ခံ",
+            "description": ""
         },
         {
             "name": "သုခမြို့တော်",
@@ -674,19 +724,22 @@
             "name": "တတိယမျက်လုံး",
             "author": "သန်းထွန်း",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ငဘ",
             "author": "မောင်ထင်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ဆန်းကြယ်မုဆိုးဝတ္တုတိုများ",
             "author": "ဖိုးကျော့",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "GenderLine2081",
@@ -699,25 +752,29 @@
             "name": "ဟယ်ရီပေါ်တာနှင့်မှော်ဝင်ရတနာ",
             "author": "ကောင်းမြတ်လွန်းသော်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "အမှတ်တရ",
             "author": "ဂျူး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ပျောက်သောလမ်းမှာစမ်းတဝါး",
             "author": "မိုးမိုး (အင်းလျား)",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ငယ်သူမို့မသိပါ",
             "author": "မစန္ဒာ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "အသက်ဓါတ်",
@@ -730,13 +787,15 @@
             "name": "ဟယ်ရီပေါ်တာနှင့်ပြဒါးရှင်လုံး",
             "author": "နန္ဒသူ",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ချစ်သူလား...စံကားတစ်ပွင့်ပွင့်ခဲ့တယ်",
             "author": "ဂျူး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ကမ္ဘာပတ်လည်ရက်ရှစ်ဆယ်",
@@ -749,13 +808,15 @@
             "name": "တစ်ကျွန်းစံ၏အပြန်လမ်း",
             "author": "ထင်လင်း",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "အာရတ်-အစ္စရေး၆ရက်စစ်ပွဲ",
             "author": "Unknown",
             "isCoverImg": false,
-            "category": "နိုင်ငံရေး"
+            "category": "နိုင်ငံရေး",
+            "description": ""
         },
         {
             "name": "သူခိုး",
@@ -768,13 +829,15 @@
             "name": "ရတနာရေအိုင်",
             "author": "ဒဂုန်ရွှေမျှား",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ရွှေတိုက်စိုး",
             "author": "ချစ်ဦးညို",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ရွှေပြည်တော်‌မျှော်တိုင်း‌​ဝေး",
@@ -787,67 +850,78 @@
             "name": "ရှင်စောပု",
             "author": "ချစ်ဦးညို",
             "isCoverImg": true,
-            "category": "သမိုင်းနောက်ခံ"
+            "category": "သမိုင်းနောက်ခံ",
+            "description": ""
         },
         {
             "name": "ရေပွက်ပမာ",
             "author": "မြသန်းတင့်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ရော်ဘင်ဆင်ကရူးဆိုး",
             "author": "ဒဂုန်ရွှေမျှား",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ညီတော်အာနန္ဒာ၏တစ်သက်တာမှတ်တမ်း",
             "author": "ဝဏ္ဏသီရိ",
             "isCoverImg": true,
-            "category": "အတ္ထုပတ္တိ"
+            "category": "အတ္ထုပတ္တိ",
+            "description": ""
         },
         {
             "name": "နေမင်းတစ်ထောင်(စတုတ္ထုတွဲ)",
             "author": "ဆင်ဖြူကျွန်းအောင်သိန်း",
             "isCoverImg": true,
-            "category": "သမိုင်းနောက်ခံ"
+            "category": "သမိုင်းနောက်ခံ",
+            "description": ""
         },
         {
             "name": "နေမင်းတစ်ထောင်(တတိယတွဲ)",
             "author": "ဆင်ဖြူကျွန်းအောင်သိန်း",
             "isCoverImg": true,
-            "category": "သမိုင်းနောက်ခံ"
+            "category": "သမိုင်းနောက်ခံ",
+            "description": ""
         },
         {
             "name": "နေမင်းတစ်ထောင်(ဒုတိယတွဲ)",
             "author": "ဆင်ဖြူကျွန်းအောင်သိန်း",
             "isCoverImg": true,
-            "category": "သမိုင်းနောက်ခံ"
+            "category": "သမိုင်းနောက်ခံ",
+            "description": ""
         },
         {
             "name": "နေမင်းတစ်ထောင်(ပထမတွဲ)",
             "author": "ဆင်ဖြူကျွန်းအောင်သိန်း",
             "isCoverImg": true,
-            "category": "သမိုင်းနောက်ခံ"
+            "category": "သမိုင်းနောက်ခံ",
+            "description": ""
         },
         {
             "name": "မိန်းမတစ်ယောက်ရဲ့ဖွင့်ဟဝန်ခံချက်",
             "author": "ဂျူး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ရဲတိုက်",
             "author": "မောင်ထွန်းသူ",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "အဝါရောင်နှင်းဆီပန်းပွင့်များ",
             "author": "ပါပီယွန်",
             "isCoverImg": true,
-            "category": "ဝတ္ထုတိုများ"
+            "category": "ဝတ္ထုတိုများ",
+            "description": ""
         },
         {
             "name": "အင်္ဂါဂြိုလ်သား",
@@ -860,25 +934,29 @@
             "name": "အမွေ",
             "author": "အောင်သင်း",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ညီမလေးကအချစ်ကိုကိုးကွယ်သတဲ့လား",
             "author": "မိုးမိုး (အင်းလျား)",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ခေါင်းလောင်းထိုးသောဝတ္ထုတိုများ",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ဝတ္ထုတိုများ"
+            "category": "ဝတ္ထုတိုများ",
+            "description": ""
         },
         {
             "name": "အများနှင့်မသက်ဆိုင်သောသူ",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "အစိမ်းရင့်ရောင်နေ့စွဲများ",
@@ -891,13 +969,15 @@
             "name": "အိုဘယ့်နော်ရထာ",
             "author": "တက္ကသိုလ်စိန်တင်",
             "isCoverImg": true,
-            "category": "သမိုင်းနောက်ခံ"
+            "category": "သမိုင်းနောက်ခံ",
+            "description": ""
         },
         {
             "name": "အလံမထူသောလက်များ",
             "author": "တာရာမင်းဝေ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "အီဂျစ်ဘုရင်မာယာရှင်",
@@ -917,13 +997,15 @@
             "name": "ကျော်စွာ၁၀၀",
             "author": "ဒေါက်တာသန်းထွန်း",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ဘဝနေနည်းအနုပညာ",
             "author": "မြသန်းတင့်",
             "isCoverImg": true,
-            "category": "တိုးတက်ရေး"
+            "category": "တိုးတက်ရေး",
+            "description": ""
         },
         {
             "name": "ဘဝမုန်တိုင်းနှင်းမုန်တိုင်း",
@@ -943,7 +1025,8 @@
             "name": "ဤလူ့ပြည်",
             "author": "သော်တာဆွေ",
             "isCoverImg": false,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ဥတ္တရအလင်း",
@@ -956,25 +1039,29 @@
             "name": "ဦးနှောက်တွင်ရင်းနှီးမြှုပ်နှံပါ",
             "author": "ဖေမြင့်",
             "isCoverImg": true,
-            "category": "တိုးတက်ရေး"
+            "category": "တိုးတက်ရေး",
+            "description": ""
         },
         {
             "name": "ဧကရီဖွားစော",
             "author": "မြသန်းတင့်",
             "isCoverImg": true,
-            "category": "သမိုင်းနောက်ခံ"
+            "category": "သမိုင်းနောက်ခံ",
+            "description": ""
         },
         {
             "name": "မှောင်မိုက်မှာငို",
             "author": "မြသန်းတင့်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "မွှေး",
             "author": "ခင်နှင်းယု",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "မြန်မာပြည်သား",
@@ -987,13 +1074,15 @@
             "name": "စာရိတ္တမာန",
             "author": "အောင်သင်း",
             "isCoverImg": true,
-            "category": "တိုးတက်ရေး"
+            "category": "တိုးတက်ရေး",
+            "description": ""
         },
         {
             "name": "ငါ့အလင်းတံခါးမှာဖယောင်းတိုင်ထွန်းထားတယ်",
             "author": "သိုးဆောင်း",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ငယ်မူပြန်အချစ်ဟာသဝတ္ထုတိုများ",
@@ -1013,31 +1102,36 @@
             "name": "အနိုင်မခံ",
             "author": "မောင်ပေါ်ထွန်း",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ဘေဘီလုံမှာအချမ်းသာဆုံးပုဂ္ဂိုလ်",
             "author": "ဖေမြင့်",
             "isCoverImg": true,
-            "category": "တိုးတက်ရေး"
+            "category": "တိုးတက်ရေး",
+            "description": ""
         },
         {
             "name": "မိုးနဲ့မြေ",
             "author": "မင်းသိင်္ခ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "အသွင်သဏ္ဌာန်တို့၏နောက်ကွယ်၌",
             "author": "နန္ဒာသိန်းဇံ",
             "isCoverImg": true,
-            "category": "တိုးတက်ရေး"
+            "category": "တိုးတက်ရေး",
+            "description": ""
         },
         {
             "name": "မိုးနဲ့အတူ",
             "author": "မင်းသိင်္ခ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "မိတ်ကောင်းဆွေကောင်းနှင့်ခရီးသွားခြင်း",
@@ -1050,13 +1144,15 @@
             "name": "စဉ်းစားစရာလေးတွေ",
             "author": "အောင်သင်း",
             "isCoverImg": true,
-            "category": "တိုးတက်ရေး"
+            "category": "တိုးတက်ရေး",
+            "description": ""
         },
         {
             "name": "အကြွေး",
             "author": "သုမောင်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "မှန်ကန်သောစကားကိုဆိုခြင်းနှင့်ပက်သက်သောမှတ်ချက်များ",
@@ -1083,25 +1179,29 @@
             "name": "မလေးမဏိစန္ဒာရဲ့‌နှောင်း",
             "author": "ချစ်ဦးညို",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ချစ်သူမင်းနန္ဒာ",
             "author": "ချစ်ဦးညို",
             "isCoverImg": true,
-            "category": "သမိုင်းနောက်ခံ"
+            "category": "သမိုင်းနောက်ခံ",
+            "description": ""
         },
         {
             "name": "ပန်းကြာဝတ်မှုံ",
             "author": "ခင်ခင်ထူး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ကာလီဒေဝီ",
             "author": "အောင်ချိမ့်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ကြောက်ရွံ့ခြင်းမှလွတ်ကင်းရေး",
@@ -1114,43 +1214,50 @@
             "name": "အသပြာလုလင်",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "သူတို့ပျော်ကြလေပြီ",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "သူငယ်ချင်းတစ်ယောက်အကြောင်း",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "သုံးနားညီ",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "မင်းမဆိုးပါဘူး",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ငိုအားနှင့်ရယ်အား",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ဂန္တဝင်အိပ်မက်",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ဂျီဟောသူ",
@@ -1163,25 +1270,29 @@
             "name": "ကွက်လပ်ကလေးဖြည့်ပေးပါ",
             "author": "မစန္ဒာ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ကလေးရဟန္တာများ",
             "author": "ချစ်ဦးညို",
             "isCoverImg": true,
-            "category": "ဘာသာရေး"
+            "category": "ဘာသာရေး",
+            "description": ""
         },
         {
             "name": "ကြောက်စရာ့ရောမ",
             "author": "မောင်ထွန်းသူ",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ကျွန်မင်းသား",
             "author": "ဒဂုန်ရွှေမျှား",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ကျွန်တော့်ဘဝဇာတ်ကြောင်း",
@@ -1194,31 +1305,36 @@
             "name": "ကမ္ဘာကိုကိုင်လှုပ်သူ",
             "author": "ဒဂုန်ရွှေမျှား",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ကန္တာရစမ်းရေအိုင်",
             "author": "မောင်ပေါ်ထွန်း",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "TheGuysfromMandalay1950s",
             "author": "ခက်ဇော်",
             "isCoverImg": true,
-            "category": "သမိုင်းနောက်ခံ"
+            "category": "သမိုင်းနောက်ခံ",
+            "description": ""
         },
         {
             "name": "NewGovNewCash",
             "author": "ဒေါက်တာခင်မောင်ညို",
             "isCoverImg": false,
-            "category": "နိုင်ငံရေး"
+            "category": "နိုင်ငံရေး",
+            "description": ""
         },
         {
             "name": "LemonLayout",
             "author": "ဒေါက်တာခင်မောင်ညို",
             "isCoverImg": false,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "၅၅၀ဇာတ်ပင်လယ်",
@@ -1231,7 +1347,8 @@
             "name": "ငါ့ဘဝငါသာသခင်ငါသာဘုရင်",
             "author": "မောင်ပေါ်ထွန်း",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ရွှေအမြုတေလက်ရွေးစင်ဝတ္ထုရှည်စုစည်းမှု-၄",
@@ -1258,7 +1375,8 @@
             "name": "ချေဂွေဗားရား",
             "author": "လင်းယုန်မောင်မောင်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "မဲခေါင်ကျော်စွာ",
@@ -1271,13 +1389,15 @@
             "name": "သုခအစစ်နှင့်သုခအတု",
             "author": "ပါရဂူ",
             "isCoverImg": true,
-            "category": "ဘာသာရေး"
+            "category": "ဘာသာရေး",
+            "description": ""
         },
         {
             "name": "သိဒ္ဓတ္ထ",
             "author": "ပါရဂူ",
             "isCoverImg": true,
-            "category": "ဘာသာရေး"
+            "category": "ဘာသာရေး",
+            "description": ""
         },
         {
             "name": "မဟာယောဂီ",
@@ -1297,7 +1417,8 @@
             "name": "ဒဏ်ရာရလိပ်ပြာအထူးကု",
             "author": "နီကိုရဲ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ပထမ",
@@ -1317,7 +1438,8 @@
             "name": "ပုလဲဒေဝီ",
             "author": "ဒဂုန်ရွှေမျှား",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "မန်းလေးသူမန်းလေးသားများ",
@@ -1330,13 +1452,15 @@
             "name": "သမိုင်းထဲကမြန်မာပြည်သား",
             "author": "သင့်လူ",
             "isCoverImg": false,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "လူပါးဝတယ်",
             "author": "သာဓု",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "သပိိတ်မှောက်ကျောင်းသား",
@@ -1370,7 +1494,8 @@
             "name": "ပန်းများကိုပွင့်စေသူ",
             "author": "ခင်နှင်းယု",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ငှက်ကလေး",
@@ -1390,7 +1515,8 @@
             "name": "ပြိုင်မြင်းတို့ရဲ့ခွါသံ",
             "author": "တာရာမင်းဝေ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ဘုန်းမောင့်တစ်ယောက်တည်းရယ်",
@@ -1410,79 +1536,92 @@
             "name": "စနေမောင်မောင်ပါဝင်သည့်မဟူရာ",
             "author": "မင်းသိင်္ခ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "မြိုင်ဟေဝန်",
             "author": "မင်းသိင်္ခ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "သေပြေးရှင်ပြေး",
             "author": "မောင်ပေါ်ထွန်း",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ကံတူအကျိုးပေး",
             "author": "ဒဂုန်ရွှေမျှား",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ဆင်ကုန်သည်",
             "author": "မောင်ထွန်းသူ",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ကာမင်း",
             "author": "မောင်ထွန်းသူ",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "အတ္တလန်တစ်ရှာပုံတော်",
             "author": "သင့်လူ",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "အသိုက်ကိုက်",
             "author": "အကြည်တော်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "အချစ်မိုးကောင်းကင်",
             "author": "မြသန်းတင့်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "အကြင်သူသည်",
             "author": "သိုးဆောင်း",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "နှစ်တစ်ရာကမ္ဘာ့စုံထောက်ဝတ္ထုတိုများ",
             "author": "မြသန်းတင့်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "အံ့သြဖွယ်ရာကျွန်းဒီပါ",
             "author": "ဒဂုန်ရွှေမျှား",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ဒိုင်းခင်ခင်",
             "author": "စိမ့် (ပညာရေး)",
             "isCoverImg": true,
-            "category": "သမိုင်းနောက်ခံ"
+            "category": "သမိုင်းနောက်ခံ",
+            "description": ""
         },
         {
             "name": "ပန်းထွာဘုရင်မ",
@@ -1495,133 +1634,155 @@
             "name": "တင်မောင်ဆွေနှင့်ကေသီမြိုင်",
             "author": "မိုးဝေ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "တင်မောင်ဆွေနှင့်နဂါးလက်သည်း",
             "author": "မိုးဝေ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "စွန့်ဝံ့သူ",
             "author": "ရွှေဥဒေါင်း",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ဟူးကောင်းတောင်ကြား",
             "author": "ဖိုးကျော့",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "တို့ရွာကမဏိစန္ဒာ",
             "author": "အဏ္ဏဝါစိုးမိုး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "မာယာဘုံ",
             "author": "မြသန်းတင့်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "စုံထောက်မောင်လူကလေးနှင့်တစ်ကျွန်းစံ",
             "author": "ရွှေဒေါင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "အမှောင်ရိပ်ဝယ်",
             "author": "မြသန်းတင့်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "အာဖရိကဧကရီ",
             "author": "နတ်နွယ်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ဦးမိုးသီးနှင့်စိတ်စွမ်းအင်",
             "author": "မင်းသိင်္ခ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "သင်္ဘောသား၏ဂန္တဝင်ကလဲ့စား",
             "author": "အဏ္ဏဝါစိုးမိုး",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ကီနဝါရဲတိုက်ကြီး",
             "author": "ဒဂုန်ရွှေမျှား",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ပန်းပန်မှနန်းဆန်တော့မည်",
             "author": "အဏ္ဏဝါစိုးမိုး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ဝံပုလွေများနှင့်ကခုန်သူ",
             "author": "မောင်ထွန်းသူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ပျားတစ်စက်",
             "author": "အဏ္ဏဝါစိုးမိုး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "မင်းမှာသစ္စာလူမှာကတိ",
             "author": "နတ်နွယ်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "နီနီလေး",
             "author": "ဒဂုန်ရွှေမျှား",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ရုပ်ထုကျိန်စာ",
             "author": "ဒဂုန်ရွှေမျှား",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ချစ်သောသွေးဧကရီ",
             "author": "ဒဂုန်ရွှေမျှား",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "လမ်းနှစ်သွယ်",
             "author": "ရွှေဥဒေါင်း",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "အရှေ့ကနေဝန်းထွက်သည့်ပမာ",
             "author": "သိန်းဖေမြင့်",
             "isCoverImg": true,
-            "category": "သမိုင်းနောက်ခံ"
+            "category": "သမိုင်းနောက်ခံ",
+            "description": ""
         },
         {
             "name": "အချစ်",
             "author": "သုမောင်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "မသိန်းရှင်ဆီပို့ပေးပါ",
@@ -1634,13 +1795,15 @@
             "name": "သပိတ်မှောက်ကျောင်းသား(ဒုတိယတွဲ)",
             "author": "သိန်းဖေမြင့်",
             "isCoverImg": true,
-            "category": "သမိုင်းနောက်ခံ"
+            "category": "သမိုင်းနောက်ခံ",
+            "description": ""
         },
         {
             "name": "သပိတ်မှောက်ကျောင်းသား(ပထမတွဲ)",
             "author": "သိန်းဖေမြင့်",
             "isCoverImg": true,
-            "category": "သမိုင်းနောက်ခံ"
+            "category": "သမိုင်းနောက်ခံ",
+            "description": ""
         },
         {
             "name": "မောင်၊ကိုကိုနှင့်မြနန္ဒာ",
@@ -1653,31 +1816,36 @@
             "name": "ယောနသံဇင်ယော်",
             "author": "ဦးဘသန်း(ဓမ္မိက)",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "လူလေးသို့ပေးစာများ",
             "author": "မြသန်းတင့်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ချစ်သောယွန်းခင်ခင်",
             "author": "မြသန်းတင့်",
             "isCoverImg": true,
-            "category": "သမိုင်းနောက်ခံ"
+            "category": "သမိုင်းနောက်ခံ",
+            "description": ""
         },
         {
             "name": "ကျွန်တော်ဆက်၍ရေးချင်သောဝတ္ထုများ",
             "author": "မြသန်းတင့်",
             "isCoverImg": true,
-            "category": "ဝတ္ထုတိုများ"
+            "category": "ဝတ္ထုတိုများ",
+            "description": ""
         },
         {
             "name": "ကမ္ဘာမြေကြီးသည်နတ်ဥယျာဉ်မဟုတ်",
             "author": "မြသန်းတင့်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "တောလား",
@@ -1690,133 +1858,155 @@
             "name": "ဂန္တဝင်မမ",
             "author": "အောင်ချိမ့်",
             "isCoverImg": true,
-            "category": "ကဗျာ"
+            "category": "ကဗျာ",
+            "description": ""
         },
         {
             "name": "ရေမြေခြားသော်လည်း",
             "author": "မောင်ပေါ်ထွန်း",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ဗိုလ်နေဝင်းဇာတ်လမ်းရှုပ်သမျှ",
             "author": "ကြေးမုံ ဦးသောင်း",
             "isCoverImg": true,
-            "category": "နိုင်ငံရေး"
+            "category": "နိုင်ငံရေး",
+            "description": ""
         },
         {
             "name": "မျှော်တလင့်လင့်",
             "author": "ရွှေဥဒေါင်း",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ဒေါ်အောင်ဆန်းစုကြည်အတွက်စာတစ်စောင်",
             "author": "မသီတာ (စမ်းချောင်း)",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "အေးအေးလူလူအတွေးများ",
             "author": "နေဝင်းမြင့်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "မြို့ပြပိုးမွှားများ",
             "author": "နေဝင်းမြင့်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ပြတင်းပေါက်",
             "author": "ဂျူး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "သူမသာမျောက်တစ်ကောင်ဖြစ်သွားတယ်ဆိုပါစို့",
             "author": "မင်းခိုက်စိုးစန်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "စာပေါင်းသိုက်အက်ဆေးများ",
             "author": "ဇော်ဇော်အောင်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ကမ္ဘာကုန်ကျယ်သ၍ဝယ်",
             "author": "တက္ကသိုလ်ဘုန်းနိုင်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ပါရီကျဆုံးခန်း",
             "author": "မြသန်းတင့်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "အလွမ်းသစ်",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ချစ်သောပန်းကလေး",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "အက်ဆေးချစ်သူ",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ကံ့ကော်နီ",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ငရဲဆိုချိုနဲ့လားဗျို့",
             "author": "ဦးနု",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ကာမတဏှာ",
             "author": "ဦးနု",
             "isCoverImg": true,
-            "category": "တိုးတက်ရေး"
+            "category": "တိုးတက်ရေး",
+            "description": ""
         },
         {
             "name": "ပန်းကြွေပွင့်ပုံပြင်",
             "author": "မြနှောင်းညို",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "နွေကန္တာဦး",
             "author": "တက္ကသိုလ်ဘုန်းနိုင်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "တစ်ကွေ့တော့တွေ့ကြဦးမည်",
             "author": "နတ်နွယ်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "အလုပ်နဲ့ဘဝကိုတည်ဆောက်ခြင်း",
             "author": "ဒေါက်တာမတင်ဝင်း",
             "isCoverImg": true,
-            "category": "တိုးတက်ရေး"
+            "category": "တိုးတက်ရေး",
+            "description": ""
         },
         {
             "name": "ဗုဒ္ဓနှင့်ဗုဒ္ဓဝါဒ",
@@ -1829,7 +2019,8 @@
             "name": "လေရူးသုန်သုန်",
             "author": "မြသန်းတင့်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "စိတ်အဆင့်ဆင့်မြင့်တက်ခြင်းသဘာဝ",
@@ -1842,13 +2033,15 @@
             "name": "Facebookပေါ်မှစာစုများ",
             "author": "တင်ညွန့်",
             "isCoverImg": false,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ငါ့ဒိန်ခဲကိုဘယ်သူနေရာရွှေ့ထားလဲ",
             "author": "တင်မောင်မြင့်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "လူတိုင်းအတွက်ပဋ္ဌာန်း",
@@ -1868,67 +2061,78 @@
             "name": "အညာသူအညာသားကျွန်မဆွေမျိုးများ",
             "author": "ခင်ခင်ထူး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "မအိမ်ကံ",
             "author": "ခင်ခင်ထူး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ပန်းကြာဝတ်မှုန်",
             "author": "ခင်ခင်ထူး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ဆူးပန်းခွေ",
             "author": "ခင်ခင်ထူး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ခမည်းကြိုး",
             "author": "ခင်ခင်ထူး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ကြာဆစ်ကြိုး",
             "author": "ခင်ခင်ထူး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "နှလုံးလှသံတမန်",
             "author": "ကျော်ဝင်း",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "အကျဉ်းစံ",
             "author": "မောင်ထွန်းသူ",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "တိမ်နဲ့ချည်တဲ့ကြိုး",
             "author": "ဂျူး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "သန်းခေါင်ယံလွတ်လပ်ရေး",
             "author": "မောင်ထွန်းသူ",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "သိုင်းလောက၏စိန်ခေါ်သံ",
             "author": "တက္ကသိုလ်နေလင်းအောင်",
             "isCoverImg": true,
-            "category": "သိုင်းဝတ္ထု"
+            "category": "သိုင်းဝတ္ထု",
+            "description": ""
         },
         {
             "name": "လွမ်းလို့သေသွားတဲ့သစ်ပင်",
@@ -1941,55 +2145,64 @@
             "name": "ကျောက်ဆစ်နှင်းဆီဝင်ရိုးစွန်း",
             "author": "မင်းခိုက်စိုးစန်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "လေယာဉ်ပြန်ပေးနှင့်အစ္စရေးဓားစာခံ",
             "author": "မောင်မောင်ညွန့်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "အဖြူကိုချစ်သောအမည်းအမည်းကိုချစ်သောအဖြူ",
             "author": "ဟိန်းလတ်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ရှန်ဂရီလာ",
             "author": "မောင်ထွန်းသူ",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "မင်းဒင်ရဲ့သက်ခိုင်",
             "author": "မင်းဒင်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ပါပီလွန်နဲ့ဗင်ဂို",
             "author": "ဦးလှဝင်း",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "စုန်းကိုက်ခံရတဲ့သစ်သီး",
             "author": "တာရာမင်းဝေ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ကျွန်တော်နှင့်နတ်ဘုရားရုပ်တု",
             "author": "တာရာမင်းဝေ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ကျွန်တော်တူးဖော်ခဲ့သည့်မြေစိုင်မြေခဲများအကြောင်း",
             "author": "တာရာမင်းဝေ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ကျောက်စိမ်းမြေ",
@@ -2002,61 +2215,71 @@
             "name": "တွေးသူများ",
             "author": "ကိုတာ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "အောက်ခြေသန်းတစ်ထောင်",
             "author": "ဂျူး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ကဗျာများ",
             "author": "ကြည်အေး",
             "isCoverImg": true,
-            "category": "ကဗျာ"
+            "category": "ကဗျာ",
+            "description": ""
         },
         {
             "name": "ပင်လယ်ဝံပုလွေ",
             "author": "ညွန့်ကြူး",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "မျက်မမြင်မာလိန်မှူး",
             "author": "ချစ်ဦးညို",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ရတနာဂီရိအကျဉ်းသား",
             "author": "ချစ်ဦးညို",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "မဟာသေနာပတိ",
             "author": "ချစ်ဦးညို",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "နှင်းကေသရာချစ်တဲ့သူရဲကောင်း",
             "author": "ချစ်ဦးညို",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ကောသမ္ဗီ",
             "author": "ချစ်ဦးညို",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "စတီဖင်ဟော့ကင်းအက်ဆေးများ",
             "author": "ကိုတာ",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "မီ",
@@ -2069,103 +2292,120 @@
             "name": "နွမ်းလျအိမ်အပြန်",
             "author": "ကြည်အေး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "နေဝင်ဘုရင်များ",
             "author": "ကျော်အောင်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "လွမ်းမောခဲ့ရသောတက္ကသိုလ်နွေညများ",
             "author": "မြသန်းတင့်",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ဓားတောင်ကိုကျော်၍မီးပင်လယ်ကိုဖြတ်မည်",
             "author": "မြသန်းတင့်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ဒေဝတာမြို့တော်",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "သာဓုအင်ဆန်း(စ်)",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "အော်ဆွေး",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "မင်းလူဝတ္ထုတိုပေါင်းချုပ်",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ရင်ခုန်သူများ",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ယာမကာလုလင်",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "မိညီမ",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "နှုတ်ခမ်း၏ထောင့်စွန်းများ",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "နှလုံးသား၃၈၀/၅၄",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ခိုးခိုးခစ်ခစ်",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ချစ်မြားရှင်အစချစ်မြားရှင်အဆုံး",
             "author": "မင်းလူ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ချစ်ချစ်ချစ်၁၂၃",
             "author": "သုမောင်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ပန်းတွေနဲ့ဝေ",
             "author": "မောင်ဝဏ္ဏ",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ကွန်မန်ဒိုဘချို",
@@ -2185,31 +2425,36 @@
             "name": "မိုးညအိပ်မက်မြူ",
             "author": "တက္ကသိုလ်ဘုန်းနိုင်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "ဘောနက်ကြီးရဲဘက်စခန်းမှလူမိုက်ကြီးများ",
             "author": "ဗြိတိသျှကိုကိုမောင်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "နဂါးနိုင်ဓါး",
             "author": "တက္ကသိုလ်နေလင်းအောင်",
             "isCoverImg": true,
-            "category": "သိုင်းဝတ္ထု"
+            "category": "သိုင်းဝတ္ထု",
+            "description": ""
         },
         {
             "name": "သစ်ရွက်အသေများပေါ်ကရက်စက်သောဂီတ",
             "author": "ကဗျာဆရာများ",
             "isCoverImg": true,
-            "category": "ကဗျာ"
+            "category": "ကဗျာ",
+            "description": ""
         },
         {
             "name": "ဖြစ်ပျက်ရှာပုံတော်ခရီးသည်",
             "author": "မင်းဒင်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "၂၁ရာစုအတွက်သင်ခန်းစာ၂၁ခု",
@@ -2229,25 +2474,29 @@
             "name": "မြေးသူကြီး",
             "author": "ညီပုလေး",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "မှုန်ရီဆိုင်းတိုင်းမြန်မာ",
             "author": "ဝင်းဖေ",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "ဘိသိက်ဆရာဆားတောင်သောင်း",
             "author": "ရွာစား စိန်တင်ဟန်",
             "isCoverImg": true,
-            "category": "ရသ"
+            "category": "ရသ",
+            "description": ""
         },
         {
             "name": "လူသားတို့၏သမိုင်းအနှစ်ချုပ်",
             "author": "မာန်သီဟထွန်း",
             "isCoverImg": true,
-            "category": "ဘာသာပြန်"
+            "category": "ဘာသာပြန်",
+            "description": ""
         },
         {
             "name": "လင်္ကာဒီပချစ်သူ",
