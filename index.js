@@ -192,7 +192,6 @@ async function main() {
 
     let downloadFileEpubPromises = [];
     let downloadFileCoverPromises = [];
-    for (let i = 16; i < 17; i++) {
     for (let i = startRowData - 1; i <= endRowData; i++) {
         let book = data[i];
         downloadFileEpubPromises.push(downloadFile(book["epub-url"], `author/${book["author"]}/${book["name"]}.epub`));
