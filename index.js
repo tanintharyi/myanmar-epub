@@ -141,6 +141,8 @@ function createSummary(data, dataAuthor) {
     }));
     summaryObj["author"] = authorArr;
 
+    summaryObj["category"] = [...new Set(bookArr.map(item => item.category))]; 
+
     writeJsonToFile(summaryObj, "summary");
 }
 
